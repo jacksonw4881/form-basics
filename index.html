@@ -12,25 +12,44 @@
 
 <body>
     <div class="container">
-        <h1>Form Basics</h1>
+        <h1>AP Chemistry Quiz</h1>
         <hr>
         <form action="http://www.w3schools.com/action_page.php" method="get">
 
             Name:
-            <input type="text" name="name"><br> E-mail:
-            <input type="email" name="email"><br>
-
-            <!--add your own inputs below-->
-
-
-
-
-
-
-
-
-            <!--add your own inputs above-->
-
+            <input type="text" name="name" placeholder="Name" required><br> E-mail:
+            <input type="email" name="email" placeholder="E-mail"><br><br>
+            
+            Which halogen can create a bond with a noble gas?<br>
+            <input type="radio" name="mcquestion"> Chlorine<br>
+            <input type="radio" name="mcquestion"> Florine<br>
+            <input type="radio" name="mcquestion"> Bromine<br>
+            <input type="radio" name="mcquestion"> Iodine<br><br>
+            What is the equation of Molarity?<br>
+            <input type="radio" name="mcquestion"> moles of solvent/liters of solution<br>
+            <input type="radio" name="mcquestion"> moles of solute/liters of solution<br>
+            <input type="radio" name="mcquestion"> moles of solvent/milliliters of solution<br>
+            <input type="radio" name="mcquestion"> moles of solute/milliliters of solution<br><br>
+            Which of the following is equvalent to the Ideal Gas Law equation?<br>
+            <input type="radio" name="mcquestion"> M = DRT/P<br>
+            <input type="radio" name="mcquestion"> PV = MRT/m<br>
+            <input type="radio" name="mcquestion"> T = DRT/n<br>
+            <input type="radio" name="mcquestion"> D = mMRT/n<br><br>
+            What is the molecular geometry of Methane?<br>
+            <input type="radio" name="mcquestion"> Trigonal Pyramidal<br>
+            <input type="radio" name="mcquestion"> Linear<br>
+            <input type="radio" name="mcquestion"> Tetrahedral<br>
+            <input type="radio" name="mcquestion"> Square Planar<br><br>
+            
+            Name 30 polyatomic ions:<br>
+            <textarea name="Ions" placeholder="Carbonate, Sulfite, etc" required></textarea><br><br>
+            
+            Toughness level<br>
+            <select name="toughness" required> 
+                <option value="easy" selected> Easy </option>
+                <option value="medium" select> Medium </option>
+                <option value="hard" select> Hard </option>
+            </select><br>
             <input class="blue-button" type="submit" value="Submit">
         </form>
     </div>
